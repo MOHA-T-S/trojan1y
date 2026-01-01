@@ -1,0 +1,28 @@
+{
+  "inbounds": [
+    {
+      "port": 8080,
+      "protocol": "trojan",
+      "settings": {
+        "clients": [
+          {
+            "password": "moh_info",
+            "level": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/moh"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
